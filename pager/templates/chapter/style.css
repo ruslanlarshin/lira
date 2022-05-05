@@ -1,0 +1,46 @@
+.pager_for_cahpter .main_nav{
+	margin-top: 10px;
+	width: 100%;
+}
+.pager_for_cahpter .nav_page{
+	font-size: 10px;
+	width: 17px; 
+	height: 17px;
+	background: linear-gradient(#69D4FF, #fcfcfc 100%);
+	display: inline-block;
+	text-align: center ;
+	box-shadow: #00a9ee 1px 1px 1px 0px;
+	cursor: pointer;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	user-select: none; 
+}
+.pager_for_cahpter .nav_page.points{
+	background:none !important;
+	box-shadow: none !important
+}
+.pager_for_cahpter .nav_page a,.no_href{
+	text-decoration: none !important;
+	color: black !important;
+	position: relative;
+	top: 3px;
+	user-select: none; 
+}
+.pager_for_cahpter .nav_page.active{
+	box-shadow: #00a9ee 1px 1px 1px 0px !important;
+	cursor: default !important;
+	background: linear-gradient( #00C5FF ,rgb(255, 255, 255) 130%);
+}
+.pager_for_cahpter .nav_page.active a{
+	cursor: default;
+}
+.pager_for_cahpter{
+	margin-bottom: 10px;
+	user-select: none; 
+	-moz-user-select: -moz-none;
+	-o-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
